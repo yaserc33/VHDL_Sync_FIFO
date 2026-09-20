@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_sync_fifo_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_sync_fifo" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,992 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,002 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/tb_sync_fifo/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sync_fifo/w_en" type="logic">
+      <obj_property name="ElementShortName">w_en</obj_property>
+      <obj_property name="ObjectShortName">w_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sync_fifo/r_en" type="logic">
+      <obj_property name="ElementShortName">r_en</obj_property>
+      <obj_property name="ObjectShortName">r_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sync_fifo/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sync_fifo/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sync_fifo/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sync_fifo/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sync_fifo/AF" type="logic">
+      <obj_property name="ElementShortName">AF</obj_property>
+      <obj_property name="ObjectShortName">AF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sync_fifo/AE" type="logic">
+      <obj_property name="ElementShortName">AE</obj_property>
+      <obj_property name="ObjectShortName">AE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sync_fifo/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sync_fifo/clk_p" type="other">
+      <obj_property name="ElementShortName">clk_p</obj_property>
+      <obj_property name="ObjectShortName">clk_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sync_fifo/tb_data_W" type="other">
+      <obj_property name="ElementShortName">tb_data_W</obj_property>
+      <obj_property name="ObjectShortName">tb_data_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_sync_fifo/tb_fifo_depth" type="other">
+      <obj_property name="ElementShortName">tb_fifo_depth</obj_property>
+      <obj_property name="ObjectShortName">tb_fifo_depth</obj_property>
+   </wvobject>
+</wave_config>
