@@ -8,4 +8,5 @@
 |1|1|Write + Read|+1|+1|same|
 
 
+<img width="2826" height="1450" alt="image" src="https://github.com/user-attachments/assets/172593cd-768c-4611-8439-9ff14002a74a" />
 
